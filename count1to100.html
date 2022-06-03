@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<button onclick = "buttonclick()">click</button>
+<div id="numbers"></div>
+<script>
+	function buttonclick(){
+		
+		for (let i = 0; i < 100; i++){
+		var header = document.createElement("h1")
+		var num = document.createTextNode(i)
+		header.appendChild(num)
+		var container = document.getElementById("numbers")
+		numbers.appendChild(header)
+		}
+	}
+</script>
+
+</body>
+</html>
